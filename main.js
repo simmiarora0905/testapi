@@ -11,3 +11,9 @@ app.get(`/User`, (request, response) => {
    response.send(data);
    console.log(data);
  });
+
+app.get(`/Test`, (request, response) => {
+  
+   response.send('data');
+  
+ });
